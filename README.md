@@ -12,7 +12,10 @@ To read a file `test.csv`, scaling the values by `0.01` (within the output range
 python3 csv2wav.py test.csv --scale 0.01
 ```
 
+By default, each column will become another channel in the output file -- use the command-line options to change this behaviour.
+
 To view and play .WAV files, use: [Audacity](https://www.audacityteam.org/).
+
 
 ## Command-Line Options
 
