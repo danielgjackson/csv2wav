@@ -4,13 +4,15 @@
 
 ## Quick Start
 
-Download the `csv2wav.py` file.
+Download (save) the [`csv2wav.py`](https://raw.githubusercontent.com/danielgjackson/csv2wav/refs/heads/main/csv2wav.py) file.
 
 To read a file `test.csv`, scaling the values by `0.01` (within the output range -1 to 1), and write the output to `test.wav`:
 
 ```bash
 python3 csv2wav.py test.csv --scale 0.01
 ```
+
+To view and play .WAV files, use: [Audacity](https://www.audacityteam.org/).
 
 ## Command-Line Options
 
